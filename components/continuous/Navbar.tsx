@@ -1,4 +1,10 @@
-export default function Navbar() {
+import { ReactElement } from "react";
+
+export type NavbarProps = {
+  active: number;
+};
+
+export default function Navbar({ active }: NavbarProps): ReactElement {
   return (
     <div className="flex flex-wrap">
       <section className="relative mx-auto">
