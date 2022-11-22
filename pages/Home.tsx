@@ -26,21 +26,43 @@ export default function Home() {
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1f2937" fill-opacity="1" d="M0,224L72,96L144,64L216,288L288,128L360,128L432,0L504,192L576,64L648,0L720,32L792,32L864,192L936,224L1008,288L1080,128L1152,96L1224,160L1296,224L1368,320L1440,192L1440,0L1368,0L1296,0L1224,0L1152,0L1080,0L1008,0L936,0L864,0L792,0L720,0L648,0L576,0L504,0L432,0L360,0L288,0L216,0L144,0L72,0L0,0Z"></path></svg>
       </section>
 
-      <section className="container mx-auto">
-      <div className=" ml-40 h-56 grid grid-cols-3 gap-4 items-stretch ...">
-        <div> <img src="../resourses/icons/user.svg" className="w-24 h-auto rounded-lg" alt=""/>
-          <p className="font-semibold ... py-4">The quick brown fox ...</p>
-          </div>
-        <div>  <img src="../resourses/icons/dollar-sign.svg" className="w-24 h-auto rounded-full" alt=""/>
-               <p className="font-semibold ... py-4">The quick brown fox ...</p>
-          </div>
-        <div>   <img src="../resourses/icons/star.svg" className="w-24 h-auto rounded-full" alt=""/>
-               <p className="font-semibold ...  py-4 ">The quick brown fox ...</p>
-        </div>
-        
+      <section className="">
+        <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-1 lg:px-8">
+          <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-16 lg:grid-cols-3">
+            <div>
+              <img
+                alt="User"
+                src="../resourses/icons/user.svg"
+                className="mx-auto h-24 w-24 rounded-full object-cover shadow-xl"
+              />
+              <div className="-mt-6 flex flex-col justify-between rounded-lg p-12 text-center">
+                <p className="text-lg font-bold text-gray-700">Lorem</p>
+              </div>
+            </div>
+                 <div>
+              <img
+                alt="Dollar"
+                src="../resourses/icons/dollar-sign.svg"
+                className="mx-auto h-24 w-24 rounded-full object-cover shadow-xl"
+              />
+              <div className="-mt-6 flex flex-col justify-between rounded-lg p-12 text-center">
+                <p className="text-lg font-bold text-gray-700">Impusm</p>
+              </div>
+            </div>
+                 <div>
+              <img
+                alt="Stars"
+                src="../resourses/icons/star.svg"
+                className="mx-auto h-24 w-24 rounded-full object-cover shadow-xl"
+              />
+              <div className="-mt-6 flex flex-col justify-between rounded-lg p-12 text-center">
+                <p className="text-lg font-bold text-gray-700">Dolor</p>
+              </div>
+            </div>
       </div>
-     
-      </section>
+      
+      </div>
+</section>
     </>
   );
 }
