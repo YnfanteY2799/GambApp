@@ -1,8 +1,7 @@
-import { PageWrapper } from "../components";
 
 export default function Home() {
   return (
-    <PageWrapper active={0}>
+    <>
       <section className="dark:bg-gray-800 dark:text-gray-100">
         <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
           <div className="flex items-center justify-center p-40  mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
@@ -28,19 +27,20 @@ export default function Home() {
       </section>
 
       <section className="container mx-auto">
-      <div className=" grid grid-cols-3 gap-4 flex items-center">
-        <div className="mb-4">
-          <img src="https://mdbootstrap.com/img/new/standard/city/047.jpg" className=" h-auto rounded-lg" alt=""/>
+      <div className=" ml-40 h-56 grid grid-cols-3 gap-4 items-stretch ...">
+        <div> <img src="../resourses/icons/user.svg" className="w-24 h-auto rounded-lg" alt=""/>
+          <p className="font-semibold ... py-4">The quick brown fox ...</p>
+          </div>
+        <div>  <img src="../resourses/icons/dollar-sign.svg" className="w-24 h-auto rounded-full" alt=""/>
+               <p className="font-semibold ... py-4">The quick brown fox ...</p>
+          </div>
+        <div>   <img src="../resourses/icons/star.svg" className="w-24 h-auto rounded-full" alt=""/>
+               <p className="font-semibold ...  py-4 ">The quick brown fox ...</p>
         </div>
-
-        <div className="mb-1">
-          <img src="https://mdbootstrap.com//img/Photos/Square/1.jpg" className="w-24 h-auto rounded-full" alt=""/>
-        </div>
-        <div className="mb-1">
-          <img src="https://mdbootstrap.com/img/new/standard/city/044.jpg" className="w-24 h-auto rounded-full" alt=""/>
-        </div>
+        
       </div>
+     
       </section>
-    </PageWrapper>
+    </>
   );
 }
