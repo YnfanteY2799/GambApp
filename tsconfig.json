@@ -17,6 +17,6 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "utils/useIsOutSide.js", "utils/useIsOutSide.js", "pages/index.tsx", "pages/index.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "utils/useIsOutSide.tsx", "utils/useIsOutSide.tsx", "pages/Home.tsx", "pages/Home.tsx"],
   "exclude": ["node_modules"]
 }
