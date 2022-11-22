@@ -1,6 +1,7 @@
 import { ReactElement } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import Head from "next/head";
 
 export type PageWapperProps = {
   body?: ReactElement;
@@ -15,6 +16,7 @@ export default function PageWrapper({
 }: PageWapperProps): ReactElement {
   return (
     <>
+    
       <Navbar active={active}/>
       {body === undefined ? children : body}
       <Footer />
