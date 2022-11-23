@@ -1,12 +1,11 @@
 import { ReactElement } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import Head from "next/head";
 
 export type PageWapperProps = {
   body?: ReactElement;
   active?: number;
-  children?: ReactElement;
+  children?: ReactElement | Array<ReactElement>;
 };
 
 export default function PageWrapper({
@@ -16,8 +15,7 @@ export default function PageWrapper({
 }: PageWapperProps): ReactElement {
   return (
     <>
-    
-      <Navbar active={active}/>
+      <Navbar active={active} />
       {body === undefined ? children : body}
       <Footer />
     </>
