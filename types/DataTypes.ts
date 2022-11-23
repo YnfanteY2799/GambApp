@@ -3,3 +3,5 @@ export type BasicContactForm = {
   email: string;
   message: string;
 };
+
+export type BlurPropped = (EventTarget & HTMLInputElement) | HTMLTextAreaElement;

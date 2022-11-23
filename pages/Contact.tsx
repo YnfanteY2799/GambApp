@@ -1,35 +1,30 @@
-import { FormEvent, MouseEvent, useState } from "react";
-import { PageWrapper } from "../components";
-import { BasicContactForm } from "../types/DataTypes";
-import SvgOne from "../components/svg/SvgOne";
-import SvgTwo from "../components/svg/SvgTwo";
-
-export type BlurPropped = (EventTarget & HTMLInputElement) | HTMLTextAreaElement;
+import { FormEvent, useState } from "react";
+import { PageWrapper, SvgOne, SvgTwo } from "../components";
+import { BasicContactForm, BlurPropped } from "../types/DataTypes";
 
 export default function Contact() {
   // State
   const [formData, setFormData] = useState({} as BasicContactForm);
 
   // Functions
-  function onFormSend(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    const { name, email, message } = formData;
-  }
 
   function formFilling({ name, value }: BlurPropped) {
     setFormData((_) => ({ ..._, [name]: value }));
   }
 
+  function onFormSend(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const { name, email, message } = formData;
+  }
+
   return (
     <PageWrapper active={2}>
-    
       <section
         className="py-20 px-4 lg:px-16 overflow-hidden relative z-10"
         data-aos="fade-up"
         id="contact"
       >
         <div className="container">
-          
           <div className="flex flex-col lg:flex-row lg:items-center text-slate-900 dark:text-gray-800 lg:justify-between -mx-4">
             <div
               className="w-full lg:w-1/2 xl:w-6/12 px-4"
@@ -55,7 +50,6 @@ export default function Contact() {
               data-aos-duration="2000"
             >
               <div className="bg-gray-100 dark:bg-slate-800 relative rounded-lg p-8 sm:p-12 shadow-lg">
-
                 {/* FORM */}
                 <form onSubmit={(e) => onFormSend(e)}>
                   <div className="mb-6">
@@ -128,17 +122,11 @@ export default function Contact() {
                     <SvgTwo />
                   </span>
                 </div>
-
               </div>
-
             </div>
-
           </div>
-
         </div>
-
       </section>
-    
     </PageWrapper>
   );
 }
