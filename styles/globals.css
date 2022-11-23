@@ -75,3 +75,19 @@
   padding: 15px 20px;
   display: block;
 }
+/*TABLETS AND PHONE OCULTAR BANNER*/
+@media screen and (max-width: 900px) {
+.ocultar-img{
+display:none;
+}
+.espacio{
+  margin-top: 20%;
+}
+}
+
+/* PHONE OCULTA LAS DOS IMAGENES DE INDEX*/
+@media screen and (max-width: 600px) {
+  .ocultar-imgs{
+display:none;
+}
+}

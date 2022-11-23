@@ -7,7 +7,7 @@ export default function Home() {
       <>
         <section className="dark:bg-gray-800 dark:text-gray-100">
           <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between m:justify-between sm:justify-between">
-            <div className="flex items-center justify-center p-40  mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 ">
+            <div className="flex items-center justify-center p-40  mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 ocultar-img espacio">
               <img src="../resourses/img/1.png" alt="" className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" />
             </div>
             <div className="flex flex-col justify-center -pl-40 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
@@ -81,7 +81,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="lg:w-1/3 md:w-1/2 w-full relative h-96 flex items-end justify-center">
+                  <div className="lg:w-1/3 md:w-1/2 w-full relative h-96 flex items-end justify-center ocultar-imgs">
                     <img className="absolute w-full h-full inset-0 object-cover object-center rounded-md mr-20" src="../resourses/img/2.png" />
                   </div>
                 </div>
@@ -100,7 +100,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="lg:w-1/3 md:w-1/2 w-full relative h-96 flex items-end justify-center">
+                  <div className="lg:w-1/3 md:w-1/2 w-full relative h-96 flex items-end justify-center ocultar-imgs">
                     <img className="absolute w-full h-full inset-0 object-cover object-center rounded-md" src="../resourses/img/3.png" />
                   </div>
                 </div>

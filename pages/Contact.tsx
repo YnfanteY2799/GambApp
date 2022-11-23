@@ -25,7 +25,7 @@ export default function Home() {
                         <div 
                             className="max-w-[570px] mb-12 lg:mb-0"
                         >
-                        <h2 className="text-slate-900 dark:text-gray-800 text-6xl font-bold mb-5"> Contactanos</h2>
+                        <h2 className="text-slate-900 dark:text-gray-800 text-5xl font-bold mb-5"> Contactanos</h2>
                         <p className=" dark:text-gray-700 text-3xl font-extrabold text-body-color leading-relaxed stand__out__text mb-9 mx-5">
                             Lorem ipsum dolor. Nulla porttitor accumsan tincidunt.
                         </p>
