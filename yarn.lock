@@ -96,66 +96,6 @@
   dependencies:
     "glob" "7.1.7"
 
-"@next/swc-android-arm-eabi@13.0.4":
-  "integrity" "sha512-SD9H+/zuV3L0oHIhsDdFkDqFtg6pIHtqRUPlsrNdOsmWXgMlSzxBmwt2ta4kyrazS62BQu7XRUG++ZyODS7AWg=="
-  "resolved" "https://registry.npmjs.org/@next/swc-android-arm-eabi/-/swc-android-arm-eabi-13.0.4.tgz"
-  "version" "13.0.4"
-
-"@next/swc-android-arm64@13.0.4":
-  "integrity" "sha512-F8W5WcBbdn/zBoy32/mQiefs9DNsT12CTSSVCsO8GvQR7GjJU+uduQ4drKcSDoDLuAFULc2jDN06Circq4vuQg=="
-  "resolved" "https://registry.npmjs.org/@next/swc-android-arm64/-/swc-android-arm64-13.0.4.tgz"
-  "version" "13.0.4"
-
-"@next/swc-darwin-arm64@13.0.4":
-  "integrity" "sha512-/lajev+9GSie+rRTl5z8skW9RJwZ+TwMKLzzM24TbDk8lUjqPTyJZ/cU0NDj8J7VQAZ6EehACSh9rcJeBRtLuA=="
-  "resolved" "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-13.0.4.tgz"
-  "version" "13.0.4"
-
-"@next/swc-darwin-x64@13.0.4":
-  "integrity" "sha512-HK4b2rFiju8d40GTL/jH9U6OQ7BYA2MeEHs7Dm7Rp7kwQtLzP3z6osdQS8er20tIFHDE4b+oVBy03ZUQkHf0Pg=="
-  "resolved" "https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-13.0.4.tgz"
-  "version" "13.0.4"
-
-"@next/swc-freebsd-x64@13.0.4":
-  "integrity" "sha512-xBvIGLaGzZtgJfRRJ2DBN82DQCJ/O7jkXyBp8X/vHefPWyVXVqF6C68Rv8ADp11thPpf8WpjkvDDLb9AuWHQUA=="
-  "resolved" "https://registry.npmjs.org/@next/swc-freebsd-x64/-/swc-freebsd-x64-13.0.4.tgz"
-  "version" "13.0.4"
-
-"@next/swc-linux-arm-gnueabihf@13.0.4":
-  "integrity" "sha512-s13pxNp9deKmmxEGTp1MoL1e4nf4wbEymEaHgFxUlhoR1OD9tK8oTNrQphQePJgVjzcWmRGH/dX7O9mVkHbU/g=="
-  "resolved" "https://registry.npmjs.org/@next/swc-linux-arm-gnueabihf/-/swc-linux-arm-gnueabihf-13.0.4.tgz"
-  "version" "13.0.4"
-
-"@next/swc-linux-arm64-gnu@13.0.4":
-  "integrity" "sha512-Lklo65usNzoYwjX51CpDKOepWVZBdwO49/Jz3djxiYUr2lRtpDVnlfwCvzN+47j3BMVMWtC2ndIi8Q4s3J0v4g=="
-  "resolved" "https://registry.npmjs.org/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-13.0.4.tgz"
-  "version" "13.0.4"
-
-"@next/swc-linux-arm64-musl@13.0.4":
-  "integrity" "sha512-+3BXtXBwjVhd5lahDe5nKZ7EwD6hE/oLFQkITCvgxymU5qYHGlLFyF52/lyw8qhyxoCr7mMVsUFhlCzVwCfNjg=="
-  "resolved" "https://registry.npmjs.org/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-13.0.4.tgz"
-  "version" "13.0.4"
-
-"@next/swc-linux-x64-gnu@13.0.4":
-  "integrity" "sha512-QB8qoZrvHhZsz62nUrTKlp5IiZ8I7KZsaa6437H/W/NOZHLGJjCxROnhUjLvKVe/T5P86pjya2SUOUqWAjz4Pg=="
-  "resolved" "https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-13.0.4.tgz"
-  "version" "13.0.4"
-
-"@next/swc-linux-x64-musl@13.0.4":
-  "integrity" "sha512-WaahF6DYUQRg1QqIMcuOu2ZsFhS3aC5iWeQyeptMHklP9wb4FfTNmBArKHknX/GXD8P9gI38WTAHJ25cc0zVwg=="
-  "resolved" "https://registry.npmjs.org/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-13.0.4.tgz"
-  "version" "13.0.4"
-
-"@next/swc-win32-arm64-msvc@13.0.4":
-  "integrity" "sha512-FD+k1j2jeY0aKcqcpzFKfTsv55PPmIZ5GKDyPjjV5AO6XvQ4nALwWl4JwizjH2426TfLXObb+C3MH0bl9Ok1Kw=="
-  "resolved" "https://registry.npmjs.org/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-13.0.4.tgz"
-  "version" "13.0.4"
-
-"@next/swc-win32-ia32-msvc@13.0.4":
-  "integrity" "sha512-+Q/Q8Ydvz3X3U84CyZdNv1HC7fE43k+xB8C6b3IFmWGa5Tu2tfskQ2FsUNBrYreZjhFC/894J3rVQ6Vj6Auugg=="
-  "resolved" "https://registry.npmjs.org/@next/swc-win32-ia32-msvc/-/swc-win32-ia32-msvc-13.0.4.tgz"
-  "version" "13.0.4"
-
 "@next/swc-win32-x64-msvc@13.0.4":
   "integrity" "sha512-vXtbo9N1FdtZZRcv4BliU28tTYrkb1EnVpUiiFFe88I6kS9aZVTMY9Z/OtDR52rl1JF1hgs9sL/59D/TQqSATQ=="
   "resolved" "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-13.0.4.tgz"
@@ -980,10 +920,10 @@
   "resolved" "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-3.3.0.tgz"
   "version" "3.3.0"
 
-"eslint@*", "eslint@^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8", "eslint@^3 || ^4 || ^5 || ^6 || ^7 || ^8", "eslint@^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0", "eslint@^6.0.0 || ^7.0.0 || ^8.0.0", "eslint@^7.23.0 || ^8.0.0", "eslint@>=5", "eslint@8.27.0":
-  "integrity" "sha512-0y1bfG2ho7mty+SiILVf9PfuRA49ek4Nc60Wmmu62QlobNR+CeXa4xXIJgcuwSQgZiWaPH+5BDsctpIW0PR/wQ=="
-  "resolved" "https://registry.npmjs.org/eslint/-/eslint-8.27.0.tgz"
-  "version" "8.27.0"
+"eslint@*", "eslint@^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8", "eslint@^3 || ^4 || ^5 || ^6 || ^7 || ^8", "eslint@^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0", "eslint@^6.0.0 || ^7.0.0 || ^8.0.0", "eslint@^7.23.0 || ^8.0.0", "eslint@>=5", "eslint@8.28.0":
+  "integrity" "sha512-S27Di+EVyMxcHiwDrFzk8dJYAaD+/5SoWKxL1ri/71CRHsnJnRDPNt2Kzj24+MT9FDupf4aqqyqPrvI8MvQ4VQ=="
+  "resolved" "https://registry.npmjs.org/eslint/-/eslint-8.28.0.tgz"
+  "version" "8.28.0"
   dependencies:
     "@eslint/eslintrc" "^1.3.3"
     "@humanwhocodes/config-array" "^0.11.6"
@@ -1135,11 +1075,6 @@
   "integrity" "sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw=="
   "resolved" "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   "version" "1.0.0"
-
-"fsevents@~2.3.2":
-  "integrity" "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA=="
-  "resolved" "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
-  "version" "2.3.2"
 
 "function-bind@^1.1.1":
   "integrity" "sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A=="
