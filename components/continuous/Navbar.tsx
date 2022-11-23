@@ -1,8 +1,7 @@
 import Link from "next/link";
 import { ReactElement } from "react";
 import { navRoutes } from "../../pages/routes/routes";
-
-export type NavbarProps = { active: number };
+import { NavbarProps } from "../../types/ComponentProps";
 
 export default function Navbar({ active }: NavbarProps): ReactElement {
   return (
@@ -10,9 +9,7 @@ export default function Navbar({ active }: NavbarProps): ReactElement {
       <section className="relative mx-auto">
         {/* <!-- navbar --> */}
         <nav className="flex justify-between w-screen text-white bg-gray-900">
-
           <div className="flex items-center w-full px-5 py-6 xl:px-12">
-
             {/* Logo START*/}
             <Link className="text-3xl font-bold font-heading" href="/Home">
               {/* <!-- <img className="h-9" src="logo.png" alt="logo"> --> */}
@@ -23,7 +20,12 @@ export default function Navbar({ active }: NavbarProps): ReactElement {
             <ul className="hidden px-4 mx-auto space-x-12 font-semibold md:flex font-heading">
               {navRoutes.map(({ title, where }, k) => (
                 <li key={k}>
-                  <Link className="hover:text-gray-200" href={where}>
+                  <Link
+                    className={`hover:text-gray-200 ${
+                      active === k ? "text-blue-500" : ""
+                    }`}
+                    href={where}
+                  >
                     {title}
                   </Link>
                 </li>
@@ -35,9 +37,7 @@ export default function Navbar({ active }: NavbarProps): ReactElement {
               {/* <!-- Sign In / Register --> */}
               <span className="flex items-center hover:text-gray-200">Log-In</span>
             </div>
-
           </div>
-
 
           {/* <!-- Responsive navbar --> */}
           <a className="flex items-center mr-6 xl:hidden" href="#">
@@ -76,8 +76,6 @@ export default function Navbar({ active }: NavbarProps): ReactElement {
               />
             </svg>
           </a>
-
-          
         </nav>
       </section>
     </div>
